@@ -111,10 +111,45 @@
 
 - (void)updateButtons
 {
-    self.westButton.hidden = [self tileExistsAtPoint:CGPointMake(self.currentPoint.x - 1, self.currentPoint.y)];
-    self.eastButton.hidden = [self tileExistsAtPoint:CGPointMake(self.currentPoint.x + 1, self.currentPoint.y)];
-    self.northButton.hidden = [self tileExistsAtPoint:CGPointMake(self.currentPoint.x, self.currentPoint.y + 1)];
-    self.southButton.hidden = [self tileExistsAtPoint:CGPointMake(self.currentPoint.x, self.currentPoint.y - 1)];
+    if ([self tileExistsAtPoint:CGPointMake(self.currentPoint.x - 1, self.currentPoint.y)]) {
+        self.westButton.alpha = 0.2;
+        self.westButton.enabled = NO;
+    }
+    else {
+        self.westButton.alpha = 1;
+        self.westButton.enabled = YES;
+    }
+    
+    if ([self tileExistsAtPoint:CGPointMake(self.currentPoint.x + 1, self.currentPoint.y)]) {
+        self.eastButton.alpha = 0.2;
+        self.eastButton.enabled = NO;
+    }
+    else {
+        self.eastButton.alpha = 1;
+        self.eastButton.enabled = YES;
+    }
+    
+    if ([self tileExistsAtPoint:CGPointMake(self.currentPoint.x, self.currentPoint.y + 1)]) {
+        self.northButton.alpha = 0.2;
+        self.northButton.enabled = NO;
+    }
+    else {
+        self.northButton.alpha = 1;
+        self.northButton.enabled = YES;
+    }
+    
+    if ([self tileExistsAtPoint:CGPointMake(self.currentPoint.x, self.currentPoint.y - 1)]) {
+        self.southButton.alpha = 0.2;
+        self.southButton.enabled = NO;
+    }
+    else {
+        self.southButton.alpha = 1;
+        self.southButton.enabled = YES;
+    }
+   // self.westButton.hidden = [self tileExistsAtPoint:CGPointMake(self.currentPoint.x - 1, self.currentPoint.y)];
+    //self.eastButton.hidden = [self tileExistsAtPoint:CGPointMake(self.currentPoint.x + 1, self.currentPoint.y)];
+    //self.northButton.hidden = [self tileExistsAtPoint:CGPointMake(self.currentPoint.x, self.currentPoint.y + 1)];
+    //self.southButton.hidden = [self tileExistsAtPoint:CGPointMake(self.currentPoint.x, self.currentPoint.y - 1)];
 }
 
 - (BOOL)tileExistsAtPoint:(CGPoint)point

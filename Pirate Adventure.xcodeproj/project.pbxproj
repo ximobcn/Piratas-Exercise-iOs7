@@ -11,7 +11,6 @@
 		21A029F019727E65007B45A3 /* XAArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A029EF19727E65007B45A3 /* XAArmor.m */; };
 		21A029F319727EED007B45A3 /* XACharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A029F219727EED007B45A3 /* XACharacter.m */; };
 		21A029F619728BEE007B45A3 /* XABoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A029F519728BEE007B45A3 /* XABoss.m */; };
-		21A029F919729BD0007B45A3 /* XATestGitHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A029F819729BD0007B45A3 /* XATestGitHub.m */; };
 		21DFA5D6196AE91500FCC14D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DFA5D5196AE91500FCC14D /* Foundation.framework */; };
 		21DFA5D8196AE91500FCC14D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DFA5D7196AE91500FCC14D /* CoreGraphics.framework */; };
 		21DFA5DA196AE91500FCC14D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DFA5D9196AE91500FCC14D /* UIKit.framework */; };
@@ -61,8 +60,6 @@
 		21A029F219727EED007B45A3 /* XACharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XACharacter.m; sourceTree = "<group>"; };
 		21A029F419728BEE007B45A3 /* XABoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XABoss.h; sourceTree = "<group>"; };
 		21A029F519728BEE007B45A3 /* XABoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XABoss.m; sourceTree = "<group>"; };
-		21A029F719729BD0007B45A3 /* XATestGitHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XATestGitHub.h; sourceTree = "<group>"; };
-		21A029F819729BD0007B45A3 /* XATestGitHub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XATestGitHub.m; sourceTree = "<group>"; };
 		21DFA5D2196AE91500FCC14D /* Pirate Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21DFA5D5196AE91500FCC14D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21DFA5D7196AE91500FCC14D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -162,8 +159,6 @@
 				21DFA5E7196AE91500FCC14D /* Main.storyboard */,
 				21DFA5EA196AE91500FCC14D /* XAViewController.h */,
 				21DFA5EB196AE91500FCC14D /* XAViewController.m */,
-				21A029F719729BD0007B45A3 /* XATestGitHub.h */,
-				21A029F819729BD0007B45A3 /* XATestGitHub.m */,
 				21DFA622196AF37E00FCC14D /* Model */,
 				21DFA5ED196AE91500FCC14D /* Images.xcassets */,
 				21DFA5DC196AE91500FCC14D /* Supporting Files */,
@@ -358,7 +353,6 @@
 				21A029F319727EED007B45A3 /* XACharacter.m in Sources */,
 				21DFA5EC196AE91500FCC14D /* XAViewController.m in Sources */,
 				21A029F619728BEE007B45A3 /* XABoss.m in Sources */,
-				21A029F919729BD0007B45A3 /* XATestGitHub.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
